@@ -19,3 +19,5 @@
 
 # The game code is in App/src/main/java/Poker/App
 # In App/src/main/resources/Poker/App you have the fxml file which there is the GUI program
+
+You have the .drawio file and the same diagram as a .png to make it easier to open it
