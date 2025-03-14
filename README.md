@@ -4,8 +4,7 @@
   that could have been done by so different and better way,but it's still worth it to check
   all the game and code 
 
-# ADVISE: I'm Spanish so the code I wrote it with Spanish names to some variables,the majority 
-# of the code its commented in English to make it more easier to read,hope you like it :)
+# ADVISE: I'm Spanish so the code I wrote it with Spanish names to some variables,the majority of the code its commented in English to make it more easier to read,hope you like it :)
 
 - This was made with a GUI thanks to the Framework "JavaFX" the Graphic User Interface of
   Java so if there's some thins you can't understand,maybe they are JavaFX methods. Only
