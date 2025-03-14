@@ -7,7 +7,7 @@
 # ADVISE: I'm Spanish so the code I wrote it with Spanish names to some variables,the majority of the code its commented in English to make it more easier to read,hope you like it :)
 
 - This was made with a GUI thanks to the Framework "JavaFX" the Graphic User Interface of
-  Java so if there's some thins you can't understand,maybe they are JavaFX methods. Only
+  Java so if there's some things you can't understand,maybe they are JavaFX methods. Only
   the JavaGUI function use JavaFX to set up all the things,in discard and play logic functions
   you will see some JavaFX methods such as "setText" or some alerts,they are easy to understand
   so don't worry too much about those things
