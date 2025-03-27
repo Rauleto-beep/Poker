@@ -1,6 +1,6 @@
 package Poker.App;
 /*
- * @Rauleto developer
+ * @author Rauleto
  */
 public class Carta {
 
