@@ -14,7 +14,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.*;
 import javafx.util.Duration;
 /*
- * @Rauleto developer
+ * @author Rauleto
  */
 public class PrimaryController {
 
