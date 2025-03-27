@@ -3,7 +3,7 @@ package Poker.App;
 import java.util.ArrayList;
 import java.util.Collections;
 /*
- * @Rauleto developer
+ * @author Rauleto
  */
 public class Mazo {
 
