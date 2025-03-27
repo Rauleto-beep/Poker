@@ -5,7 +5,7 @@ import java.util.*;
 
 /**
  *
- * @Rauleto developer
+ * @author Rauleto
  */
 public class AnalizadorMano {
 
