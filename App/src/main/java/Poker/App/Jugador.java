@@ -2,7 +2,7 @@ package Poker.App;
 
 import java.util.ArrayList;
 /*
- * @Rauleto developer
+ * @author Rauleto
  */
 public class Jugador {
 
