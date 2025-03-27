@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * @Rauleto developer
+ * @author Rauleto
  * JavaFX Application
  */
 public class App extends Application {
