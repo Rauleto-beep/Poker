@@ -1,0 +1,273 @@
+.carta:selected{
+	-fx-border-color: #FFD700; /* Borde dorado */
+	-fx-border-width: 3px;
+	-fx-effect: dropshadow(gaussian, rgba(255, 215, 0, 0.8), 10, 0, 0, 0); /* Sombra dorada */
+	-fx-opacity: 0.8; /* Reducir la opacidad */
+}
+/* Picas */
+#K_picas{
+	-fx-background-image: url("imagenes/picas/ReyPicas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#Q_picas{
+	-fx-background-image: url("imagenes/picas/ReinaPicas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#J_picas{
+	-fx-background-image: url("imagenes/picas/JPicas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#10_picas{
+	-fx-background-image: url("imagenes/picas/10Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#9_picas{
+	-fx-background-image: url("imagenes/picas/9Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#8_picas{
+	-fx-background-image: url("imagenes/picas/8Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#7_picas{
+	-fx-background-image: url("imagenes/picas/7Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#6_picas{
+	-fx-background-image: url("imagenes/picas/6Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#5_picas{
+	-fx-background-image: url("imagenes/picas/5Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#4_picas{
+	-fx-background-image: url("imagenes/picas/4Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#3_picas{
+	-fx-background-image: url("imagenes/picas/3Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#2_picas{
+	-fx-background-image: url("imagenes/picas/2Picas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#A_picas{
+	-fx-background-image: url("imagenes/picas/APicas.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+
+/* Corazones */
+#K_corazones{
+	-fx-background-image: url("imagenes/corazones/Reycorazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#Q_corazones{
+	-fx-background-image: url("imagenes/corazones/Reinacorazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#J_corazones{
+	-fx-background-image: url("imagenes/corazones/Jcorazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#10_corazones{
+	-fx-background-image: url("imagenes/corazones/10corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#9_corazones{
+	-fx-background-image: url("imagenes/corazones/9corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#8_corazones{
+	-fx-background-image: url("imagenes/corazones/8corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#7_corazones{
+	-fx-background-image: url("imagenes/corazones/7corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#6_corazones{
+	-fx-background-image: url("imagenes/corazones/6corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#5_corazones{
+	-fx-background-image: url("imagenes/corazones/5corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#4_corazones{
+	-fx-background-image: url("imagenes/corazones/4corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#3_corazones{
+	-fx-background-image: url("imagenes/corazones/3corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#2_corazones{
+	-fx-background-image: url("imagenes/corazones/2corazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#A_corazones{
+	-fx-background-image: url("imagenes/corazones/Acorazones.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+
+/* Treboles */
+#K_treboles{
+	-fx-background-image: url("imagenes/treboles/Reytreboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#Q_treboles{
+	-fx-background-image: url("imagenes/treboles/Reinatreboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#J_treboles{
+	-fx-background-image: url("imagenes/treboles/Jtreboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#10_treboles{
+	-fx-background-image: url("imagenes/treboles/10treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#9_treboles{
+	-fx-background-image: url("imagenes/treboles/9treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#8_treboles{
+	-fx-background-image: url("imagenes/treboles/8treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#7_treboles{
+	-fx-background-image: url("imagenes/treboles/7treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#6_treboles{
+	-fx-background-image: url("imagenes/treboles/6treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#5_treboles{
+	-fx-background-image: url("imagenes/treboles/5treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#4_treboles{
+	-fx-background-image: url("imagenes/treboles/4treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#3_treboles{
+	-fx-background-image: url("imagenes/treboles/3treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#2_treboles{
+	-fx-background-image: url("imagenes/treboles/2treboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#A_treboles{
+	-fx-background-image: url("imagenes/treboles/Atreboles.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+
+/* Diamantes */
+#K_diamantes{
+	-fx-background-image: url("imagenes/diamantes/ReyDiamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#Q_diamantes{
+	-fx-background-image: url("imagenes/diamantes/ReinaDiamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#J_diamantes{
+	-fx-background-image: url("imagenes/diamantes/JDiamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#10_diamantes{
+	-fx-background-image: url("imagenes/diamantes/10Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#9_diamantes{
+	-fx-background-image: url("imagenes/diamantes/9Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#8_diamantes{
+	-fx-background-image: url("imagenes/diamantes/8Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#7_diamantes{
+	-fx-background-image: url("imagenes/diamantes/7Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#6_diamantes{
+	-fx-background-image: url("imagenes/diamantes/6Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#5_diamantes{
+	-fx-background-image: url("imagenes/diamantes/5Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#4_diamantes{
+	-fx-background-image: url("imagenes/diamantes/4Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#3_diamantes{
+	-fx-background-image: url("imagenes/diamantes/3Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#2_diamantes{
+	-fx-background-image: url("imagenes/diamantes/2Diamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
+#A_diamantes{
+	-fx-background-image: url("imagenes/diamantes/ADiamante.png");
+	-fx-background-size: cover; /* Ajusta la imagen al tamaño del componente */
+	-fx-background-position: center; /* Centra la imagen */
+}
