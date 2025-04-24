@@ -10,6 +10,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.*;
 import javafx.scene.text.*;
+import javafx.scene.transform.Scale;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,10 +25,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-    	//Game scene
+        // Crear la escena escalable
         game_scene = new Scene(loadFXML("primary"), 800, 500);
         game_scene.getStylesheets().add(getClass().getResource("estilos.css").toExternalForm());
-        
+
+
         //Welcome text on the initial screen
         Text bienvenida = new Text();
         bienvenida.setText("WELCOME");
@@ -75,6 +77,10 @@ public class App extends Application {
         StackPane initial_root = new StackPane();
         initial_root.getChildren().addAll(button_box,bienvenida);
         initial_root.setMargin(bienvenida, new Insets(0,50,150,50)); //Coordinates to set the text on top of the buttons
+
+        play.setOnAction(e -> {
+            stage.setScene(game_scene); 
+        });
         
         //Main Scene
         Scene main_scene = new Scene(initial_root,800,500);

@@ -20,7 +20,7 @@ public class AnalizadorMano {
 	public AnalizadorMano(ManoJugador mano_jugador) {
 		this.mano_jugador = mano_jugador.getMano();
 		this.numeros_mano_jugador = new int[5];
-		this.numeros_points = new ArrayList<>();
+		AnalizadorMano.numeros_points = new ArrayList<>();
 
 		this.carta_numero = new String[5];
 		this.carta_string = new String[5];
@@ -90,7 +90,6 @@ public class AnalizadorMano {
 			if (numeros_mano_jugador[i] == numeros_mano_jugador[i + 1]) {
 				contador++;
 				numeros_points.add(numeros_mano_jugador[i]);
-
 			}
 		}
 		if (contador == 1) {

@@ -20,6 +20,10 @@ public class PrimaryController {
 
 	//All the GUI things
 	@FXML
+	private AnchorPane panel_cartas;
+	@FXML
+	private AnchorPane panel_botones;
+	@FXML
     private SplitPane splitpane;
     @FXML
     private HBox card_panel;
@@ -71,17 +75,13 @@ public class PrimaryController {
     private static int discard_count = 3; //For the remaining discards left text
     
     //Score counters
-    private int boss_score = 150;
+    private int boss_score = 300;
     private int player_score = 0;
     private int number_score = 0;
 
     @FXML
     private void initialize() throws IOException {
         cartas = new ToggleButton[]{carta1, carta2, carta3, carta4, carta5};
-        //carta1.setId("A_picas");
-        //carta2.setId("A_corazones");
-        //carta3.setId("A_treboles");
-        //carta4.setId("A_diamantes");
         //Set up buttons
         javaGUI();
 
@@ -94,6 +94,9 @@ public class PrimaryController {
         for (int i = 0; i < cartas.length; i++) {
             cartas[i].setUserData(mano_jugador.getCarta(i));
         }
+        //Set hand
+        hand_analiser.setHand(mano_jugador);
+        
         //CSS images
         images();
         
@@ -209,6 +212,8 @@ public class PrimaryController {
                                 
                             } 
                         }  		
+                		
+                		
                 		//Update the images
                 		images();
                 		
@@ -274,13 +279,14 @@ public class PrimaryController {
                             //This is for making the game more comfortable, deselect the select cards
                             cartas[i].setSelected(false);
                             
-                            
                         } 
                     }  		
-
+    	           
+    	            
     	            //Update the images
     	            images();
     	            
+    	            number_score = 0;
     	            //Accumulate points of played cards
     	            for (int i = 0; i < AnalizadorMano.numeros_points.size(); i++) {
     	            	number_score += AnalizadorMano.numeros_points.get(i);
@@ -355,7 +361,7 @@ public class PrimaryController {
         else if (hand_analiser.pair() == 1) {player_score += (number_score+10) * 2;}
         else {
         	//High Card
-        	player_score += (highCard+5) * 1;
+        	player_score += highCard+5;
         }
     }
     
