@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<SplitPane  dividerPositions="0.7" orientation="vertical" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Poker.App.PrimaryController">
+	<items>
+	<!--Upper part of the SplitPanel,here's the game-->
+		<AnchorPane fx:id="panel_cartas" prefWidth="700" prefHeight="400" >
+   			<children>
+   			<!--This button will provide more fasters games,selectingthe 5 cards at the same time to discard them easier -->
+   				<VBox alignment="TOP_CENTER"  prefWidth="130"  prefHeight="100" minWidth="50" minHeight="50" layoutX="333">
+   					<Button fx:id="select_all_cards" text="Selecciona todas las cartas" prefWidth="100" prefHeight="70" minWidth="50" minHeight="50"/>
+   				</VBox>
+    	 	 	<HBox fx:id= "card_panel" spacing="33" alignment="CENTER" prefHeight="120" prefWidth="700" layoutX="4" layoutY ="80">
+                    <ToggleButton fx:id="carta1" styleClass="carta" prefWidth="100" prefHeight="350" minWidth="130" minHeight="200"/>
+                    <ToggleButton fx:id="carta2" styleClass="carta" prefWidth="100" prefHeight="350" minWidth="130" minHeight="200"/>
+                    <ToggleButton fx:id="carta3" styleClass="carta" prefWidth="100" prefHeight="350" minWidth="130" minHeight="200"/>
+                    <ToggleButton fx:id="carta4" styleClass="carta" prefWidth="100" prefHeight="350" minWidth="130" minHeight="200"/>
+                    <ToggleButton fx:id="carta5" styleClass="carta" prefWidth="100" prefHeight="350" minWidth="130" minHeight="200"/>
+                </HBox>
+  		 	</children>
+  	 	</AnchorPane>
+  	 	<!--Bottom part of the panel,interactive button to play comes here-->
+  	 	<AnchorPane fx:id="panel_botones" prefWidth="800" prefHeight="200">
+  	 			<Label fx:id="remaining_discards" layoutX = "610" layoutY="15" />
+  	 			<Label fx:id="remaining_plays" layoutX = "15" layoutY="15" />	
+  	 				
+  	 			<Label fx:id="necessary_points" layoutX = "270" layoutY="120"/> 
+  	 			<Label fx:id="player_score_gui" layoutX = "320" layoutY="60"/>	
+  	 					
+				<HBox fx:id="playable_buttons" spacing="400" alignment="CENTER" prefHeight="200" prefWidth="800">
+					<Button fx:id="play" text = "Jugar" prefWidth="600" prefHeight="100" minWidth="500" minHeight="100"/>
+					<Button fx:id="discard" text = "Descartar" prefWidth="600" prefHeight="100" minWidth="500" minHeight="100"/>
+				</HBox>
+  	 	</AnchorPane>
+   </items>
+</SplitPane>
